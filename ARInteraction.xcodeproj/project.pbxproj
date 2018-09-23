@@ -13,6 +13,8 @@
 		957EE36721564BA40077AED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957EE36521564BA40077AED8 /* Main.storyboard */; };
 		957EE36921564BA60077AED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957EE36821564BA60077AED8 /* Assets.xcassets */; };
 		957EE36C21564BA60077AED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957EE36A21564BA60077AED8 /* LaunchScreen.storyboard */; };
+		959094002157AF89006F9013 /* BallSCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959093FF2157AF89006F9013 /* BallSCNNode.swift */; };
+		959094022157B9B4006F9013 /* DJB Up on the Scoreboard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 959094012157B9B4006F9013 /* DJB Up on the Scoreboard.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		957EE36821564BA60077AED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957EE36B21564BA60077AED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957EE36D21564BA60077AED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959093FF2157AF89006F9013 /* BallSCNNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallSCNNode.swift; sourceTree = "<group>"; };
+		959094012157B9B4006F9013 /* DJB Up on the Scoreboard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DJB Up on the Scoreboard.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		957EE35E21564BA40077AED8 /* ARInteraction */ = {
 			isa = PBXGroup;
 			children = (
+				959094012157B9B4006F9013 /* DJB Up on the Scoreboard.ttf */,
 				957EE35F21564BA40077AED8 /* AppDelegate.swift */,
 				957EE36121564BA40077AED8 /* art.scnassets */,
 				957EE36321564BA40077AED8 /* ViewController.swift */,
+				959093FF2157AF89006F9013 /* BallSCNNode.swift */,
 				957EE36521564BA40077AED8 /* Main.storyboard */,
 				957EE36821564BA60077AED8 /* Assets.xcassets */,
 				957EE36A21564BA60077AED8 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				957EE36221564BA40077AED8 /* art.scnassets in Resources */,
+				959094022157B9B4006F9013 /* DJB Up on the Scoreboard.ttf in Resources */,
 				957EE36C21564BA60077AED8 /* LaunchScreen.storyboard in Resources */,
 				957EE36921564BA60077AED8 /* Assets.xcassets in Resources */,
 				957EE36721564BA40077AED8 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				957EE36421564BA40077AED8 /* ViewController.swift in Sources */,
+				959094002157AF89006F9013 /* BallSCNNode.swift in Sources */,
 				957EE36021564BA40077AED8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
